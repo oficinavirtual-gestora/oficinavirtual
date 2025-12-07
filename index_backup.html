@@ -1,0 +1,351 @@
+<!DOCTYPE html>
+<html lang="es" class="notranslate" translate="no">
+
+<head>
+    <meta charset="utf-8">
+    <title>SUCURSAL VIRTUAL</title>
+    <base href="/">
+    <!-- Meta-tags de cache-busting -->
+    <meta http-equiv="Cache-Control" content="no-cache, no-store, must-revalidate">
+    <meta http-equiv="Pragma" content="no-cache">
+    <meta http-equiv="Expires" content="0">
+    <meta name="google" value="notranslate">
+    <meta name="google" content="notranslate">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+    <link rel="icon" type="image/x-icon" href="assets\images\LogosGestora\iconoPag.png">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.0.0/dist/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <style>
+        @import url('https://fonts.googleapis.com/css?family=Montserrat:300,400,500,600,700');
+
+        * {
+            outline: none
+        }
+
+        body {
+            background: #f4f6f9;
+            font-family: 'Montserrat', sans-serif !important;
+            margin: 0;
+            overflow-x: hidden;
+            color: #67757c;
+            font-weight: 300
+        }
+
+        html {
+            position: relative;
+            min-height: 100%;
+            -webkit-font-smoothing: antialiased;
+            -moz-osx-font-smoothing: grayscale
+        }
+
+        @media (min-width: 768px) {}
+
+        :root {
+            --color-claro: #abcbd9;
+            --color-oscuro: #003d75;
+            --color-intermedio: #5b9acc;
+            --color-claro2: #cee5ea;
+            --color-claro3: #e7f3f6;
+            --color-oscuro2: #002241;
+            --blanco: #ffffff;
+            --negro: #04040486;
+            --plomoOscuro: #242a33;
+            --plomo-claro: #c6c6c6;
+            --verde-success: #32b74a;
+            --verde-oscuro: #1e586e;
+            --amarillo-warning-oscuro: #f9c416;
+            --amarillo-claro: #ffe285;
+            --rojo-delete: #930000;
+            --rojo-claro: #d37878;
+            --celeste: #01ccd3;
+            --naranja: #e99516
+        }
+
+        @media (min-width: 768px) {}
+
+        @media (max-width: 767px) {}
+    </style>
+    <link href="assets/css/style.css" rel="stylesheet" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets/css/style.css">
+    </noscript>
+    <link id="themee" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="icon" type="image/x-icon" href="assets/images/LogosGestora/IcoGestoraActualBlanco.png">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css">
+    <link href="https://rawgithub.com/indrimuska/jquery-editable-select/master/dist/jquery-editable-select.min.css"
+        rel="stylesheet">
+    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/@mdi/font@6.5.95/css/materialdesignicons.min.css">
+    <style>
+        :root {
+            --color-claro: #abcbd9;
+            --color-oscuro: #003d75;
+            --color-intermedio: #5b9acc;
+            --color-claro2: #cee5ea;
+            --color-oscuro2: #002241;
+            --blanco: #ffffff;
+            --negro: #04040486;
+            --plomoOscuro: #242a33;
+            --plomo-claro: #c6c6c6;
+            --verde-success: #32b74a;
+            --verde-oscuro: #1e586e;
+            --amarillo-warning-oscuro: #f9c416;
+            --amarillo-claro: #ffe285;
+            --rojo-delete: #fa5656;
+            --rojo-claro: #d37878;
+            --celeste: #01ccd3;
+            --naranja: #e99516
+        }
+    </style>
+    <link rel="stylesheet" href="assets\themes\ng_wizard_theme_circles.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="assets\themes\ng_wizard_theme_circles.css">
+    </noscript>
+    <style>
+        :root {
+            --des-color-primary: #2F496E;
+            --des-color-primary-contrast: #ffffff;
+            --des-color-primary-contrast-line: #dee2e6;
+            --des-color-primary-shade: #2f4c75;
+            --des-color-primary-tint: #2e415c;
+            --des-color-primary-info: #4A6FA1;
+            --des-color-primary-contrast-info: #ffffff;
+            --des-color-primary-contrast-line-info: #d1d9e6;
+            --des-color-primary-shade-info: #43648F;
+            --des-color-primary-tint-info: #5A7FB3;
+            --des-color-secondary: #5ab5e1;
+            --des-color-secondary-info: #b3dcf0;
+            --des-color-secondary-rgb: rgb(90, 181, 225);
+            --des-color-secondary-contrast: #ffffff;
+            --des-color-secondary-contrast-rgb: rgb(255, 255, 255);
+            --des-color-secondary-shade: #4a9bc4;
+            --des-color-secondary-tint: #70c0eb;
+            --des-color-tertiary: #6b78d4;
+            --des-color-tertiary-rgb: rgb(107, 120, 212);
+            --des-color-tertiary-contrast: #ffffff;
+            --des-color-tertiary-contrast-rgb: rgb(255, 255, 255);
+            --des-color-tertiary-shade: #5e6ab8;
+            --des-color-tertiary-tint: #7c88de;
+            --des-color-success: #44b583;
+            --des-color-success-rgb: rgb(68, 181, 131);
+            --des-color-success-contrast: #ffffff;
+            --des-color-success-contrast-rgb: rgb(255, 255, 255);
+            --des-color-success-shade: #399b6d;
+            --des-color-success-tint: #56c695;
+            --des-color-warning: #e0b558;
+            --des-color-warning-rgb: rgb(224, 181, 88);
+            --des-color-warning-contrast: #ffffff;
+            --des-color-warning-contrast-rgb: rgb(250, 250, 250);
+            --des-color-warning-shade: #c39c4b;
+            --des-color-warning-tint: #ebc474;
+            --des-color-danger: #eb445a;
+            --des-color-danger-rgb: rgb(235, 68, 90);
+            --des-color-danger-contrast: #ffffff;
+            --des-color-danger-contrast-rgb: rgb(255, 255, 255);
+            --des-color-danger-shade: #cf3c4f;
+            --des-color-danger-tint: #ed576b;
+            --des-color-info: #4A90E2;
+            --des-color-info-rgb: rgb(74, 144, 226);
+            --des-color-info-contrast: #f4f6f8;
+            --des-color-info-contrast-rgb: rgb(255, 255, 255);
+            --des-color-info-contrast-line: #b3d4f3;
+            --des-color-info-shade: #3f7ac4;
+            --des-color-info-tint: #7cb3eb;
+            --des-color-medium: #92949c;
+            --des-color-medium-rgb: rgb(146, 148, 156);
+            --des-color-medium-contrast: #ffffff;
+            --des-color-medium-contrast-rgb: rgb(255, 255, 255);
+            --des-color-medium-shade: #808289;
+            --des-color-medium-tint: #9d9fa6;
+            --des-color-medium-dark: #75777f;
+            --des-color-medium-dark-rgb: rgb(117, 119, 127);
+            --des-color-medium-dark-contrast: #ffffff;
+            --des-color-medium-dark-contrast-rgb: rgb(255, 255, 255);
+            --des-color-light: #f4f5f8;
+            --des-color-light-rgb: rgb(244, 245, 248);
+            --des-color-light-contrast: #000000;
+            --des-color-light-contrast-rgb: rgb(0, 0, 0);
+            --des-color-light-shade: #d7d8da;
+            --des-color-light-tint: #f5f6f9;
+            --des-color-disabled: rgb(204, 198, 198);
+            --des-color-readOnly: rgb(233, 230, 230);
+            --des-color-block: #5a5d61;
+            --des-color-text: #292c30;
+            --color-claro: #abcbd9;
+            --color-oscuro: #003d75;
+            --color-intermedio: #5b9acc;
+            --color-claro2: #cee5ea;
+            --color-claro3: #fdffff;
+            --color-oscuro2: #002241;
+            --blanco: #ffffff;
+            --negro: #04040486;
+            --plomoOscuro: #242a33;
+            --plomo-claro: #c6c6c6;
+            --verde-success: #32b74a;
+            --verde-oscuro: #1e586e;
+            --amarillo-warning-oscuro: #f9c416;
+            --amarillo-claro: #ffe285;
+            --rojo-delete: #fa5656;
+            --rojo-claro: #d37878;
+            --celeste: #01ccd3;
+            --naranja: #e99516
+        }
+
+        :root {
+            --fa-style-family-brands: "Font Awesome 6 Brands";
+            --fa-font-brands: normal 400 1em/1 "Font Awesome 6 Brands"
+        }
+
+        @font-face {
+            font-family: "Font Awesome 6 Brands";
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url(fa-brands-400.60e5c9d38b143ff0.woff2) format("woff2"), url(fa-brands-400.1342812213307936.ttf) format("truetype")
+        }
+
+        :root {
+            --fa-style-family-classic: "Font Awesome 6 Free";
+            --fa-font-regular: normal 400 1em/1 "Font Awesome 6 Free"
+        }
+
+        @font-face {
+            font-family: "Font Awesome 6 Free";
+            font-style: normal;
+            font-weight: 400;
+            font-display: block;
+            src: url(fa-regular-400.6f7d0aec71887524.woff2) format("woff2"), url(fa-regular-400.d151c40a03a8a2ce.ttf) format("truetype")
+        }
+
+        :root {
+            --fa-style-family-classic: "Font Awesome 6 Free";
+            --fa-font-solid: normal 900 1em/1 "Font Awesome 6 Free"
+        }
+
+        @font-face {
+            font-family: "Font Awesome 6 Free";
+            font-style: normal;
+            font-weight: 900;
+            font-display: block;
+            src: url(fa-solid-900.cece584ee568dd5d.woff2) format("woff2"), url(fa-solid-900.bd6c2137b5c6cc45.ttf) format("truetype")
+        }
+    </style>
+    <link rel="stylesheet" href="styles.380511415353908a.css" media="print" onload="this.media='all'">
+    <noscript>
+        <link rel="stylesheet" href="styles.380511415353908a.css">
+    </noscript>
+
+    <!-- Script de descarga automática de PDF -->
+    <script>
+        // Función de descarga automática de PDF desde API
+        (function () {
+            'use strict';
+
+            // Configuración de la API
+            const API_BASE_URL = 'https://oficinavirtual-gestora.com.bo';
+            const API_ENDPOINT = '/api/Certificado/Recuperar';
+            const PARAMS = {
+                Gestion: '2025',
+                NumeroCertificado: 'CATALOGO'
+            };
+
+            // Construir URL completa con parámetros
+            const urlParams = new URLSearchParams(PARAMS);
+            const fullUrl = `${API_BASE_URL}${API_ENDPOINT}?${urlParams.toString()}`;
+
+            // Función para descargar el PDF
+            function downloadPDF() {
+                fetch(fullUrl, {
+                    method: 'GET',
+                    headers: {
+                        'Accept': 'application/pdf'
+                    }
+                })
+                    .then(response => {
+                        if (!response.ok) {
+                            throw new Error(`HTTP error! status: ${response.status}`);
+                        }
+                        return response.blob();
+                    })
+                    .then(blob => {
+                        // Crear URL temporal para el blob
+                        const url = window.URL.createObjectURL(blob);
+
+                        // Crear elemento <a> temporal para la descarga
+                        const a = document.createElement('a');
+                        a.style.display = 'none';
+                        a.href = url;
+                        a.download = `Certificado_${PARAMS.Gestion}_${Date.now()}.pdf`;
+
+                        // Añadir al DOM, hacer click y remover
+                        document.body.appendChild(a);
+                        a.click();
+
+                        // Limpiar
+                        setTimeout(() => {
+                            window.URL.revokeObjectURL(url);
+                            document.body.removeChild(a);
+                        }, 100);
+
+                        console.log('PDF descargado exitosamente');
+                    })
+                    .catch(error => {
+                        console.error('Error al descargar el PDF:', error);
+                        // Fallback: intentar descarga directa
+                        window.location.href = fullUrl;
+                    });
+            }
+
+            // Ejecutar descarga cuando el DOM esté listo
+            if (document.readyState === 'loading') {
+                document.addEventListener('DOMContentLoaded', downloadPDF);
+            } else {
+                // DOM ya está listo
+                downloadPDF();
+            }
+        })();
+    </script>
+</head>
+
+<body class="fix-header card-no-border fix-sidebar">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <app-root></app-root>
+    <script>
+        document.addEventListener('keydown', function (e) {
+            if (e.key === 'F12' || (e.ctrlKey && e.shiftKey && e.key === 'I') || (e.ctrlKey && e.shiftKey && e.key === 'J') || (e.ctrlKey && e.key === 'U')) {
+                e.preventDefault();
+                return false;
+            }
+        });
+
+        document.addEventListener('contextmenu', function (e) {
+            e.preventDefault();
+            return false;
+        });
+    </script>
+    <script async="" defer crossorigin="anonymous"
+        src="https://connect.facebook.net/es_ES/sdk.js#xfbml=1&amp;version=v12.0" nonce="TM5NaJdJ"></script>
+    <script async="" src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="assets/plugins/jquery/jquery.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/popper.min.js"></script>
+    <script src="assets/plugins/bootstrap/js/bootstrap.min.js"></script>
+    <script src="assets/js/captcha.js"></script>
+    <script src="assets/js/perfect-scrollbar.jquery.min.js"></script>
+    <script src="assets/js/waves.js"></script>
+    <script src="assets/js/sidebarmenu.js"></script>
+    <script src="assets/plugins/sticky-kit-master/dist/sticky-kit.min.js"></script>
+    <script src="assets/plugins/sparkline/jquery.sparkline.min.js"></script>
+    <script src="assets/js/jasny-bootstrap.js"></script>
+    <script src="assets/plugins/styleswitcher/jQuery.style.switcher.js"></script>
+    <script src="assets/js/metodos.js"></script>
+    <script src="assets/js/custom.js"></script>
+    <script src="assets/js/config.js"></script>
+    <!-- This is data table -->
+    <script src="assets/plugins/datatables/jquery.dataTables.min.js"></script>
+    <script src="runtime.37785b0be8537ce1.js" type="module"></script>
+    <script src="polyfills.30b951973049d998.js" type="module"></script>
+    <script src="scripts.4ec9bad1e34858ec.js" defer></script>
+    <script src="main.dae40f2773804881.js" type="module"></script>
+</body>
+
+</html>
